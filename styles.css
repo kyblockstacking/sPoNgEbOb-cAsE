@@ -11,7 +11,6 @@ body {
   background: #fdf785;
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -78,4 +77,36 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+.user-input {
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 1.2em;
+  border: none;
+}
+
+.user-input::placeholder {
+  color: #5d713f;
+}
+
+.user-input:focus {
+  outline: none;
+}
+
+.border-wrap {
+  position: relative;
+  padding: 2px;
+  background: linear-gradient(to right, #d2dc22, #a988bd);
+  border-radius: 20px;
+}
+
+.convert-button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 150px;
+  border: none;
+  background-color: #04559c;
+  color: #fff;
+  border-radius: 20px;
 }
