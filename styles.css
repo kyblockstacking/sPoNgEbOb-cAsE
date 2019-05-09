@@ -15,6 +15,11 @@ body {
   flex-direction: column;
 }
 
+.spongebob-picture {
+  display: block;
+  margin: 0 auto;
+}
+
 .example {
   display: flex;
   flex-direction: row;
