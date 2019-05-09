@@ -84,6 +84,7 @@ body {
   padding: 5px;
   font-size: 1.2em;
   border: none;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
 }
 
 .user-input::placeholder {
@@ -96,8 +97,8 @@ body {
 
 .border-wrap {
   position: relative;
-  padding: 2px;
-  background: linear-gradient(to right, #d2dc22, #a988bd);
+  padding: 4px;
+  background: linear-gradient(to bottom right, #f6a3a5, #a988bd);
   border-radius: 20px;
 }
 
