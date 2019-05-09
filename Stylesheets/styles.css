@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: "Slackey", cursive;
+  /* font-family: "Slackey", cursive; */
 }
 
 .example {
@@ -34,11 +34,13 @@ body {
   color: #ac5629;
   color: #5d713f;
   cursor: default;
+  font-family: "Slackey", cursive;
 }
 
 .example-text,
 .example-converted-text {
   color: #ac5629;
+  font-family: "Space Mono", monospace;
 }
 
 .arrows {
@@ -93,11 +95,13 @@ body {
   outline: none;
   color: #0059a4;
   text-align: center;
+  font-family: "Space Mono", monospace;
 }
 
 .user-input::placeholder {
   color: #5d713f;
   font-weight: bold;
+  font-family: "Space Mono", monospace;
 }
 
 .user-input:focus {
@@ -125,6 +129,7 @@ body {
   border-radius: 20px;
   box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.5);
   outline: none;
+  font-family: "Space Mono", monospace;
 }
 
 .convert-button:hover {
