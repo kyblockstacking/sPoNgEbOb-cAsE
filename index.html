@@ -11,24 +11,27 @@
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css'
         integrity='sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay' crossorigin='anonymous'>
     <!-- Stylesheet -->
-    <link rel='stylesheet' type='text/css' href='index.css'>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
     <title>sPoNgEbOb CaSe</title>
 </head>
 
 <body>
     <div class='sponge-wrapper'>
-        <h1>cOnVeRt YoUr TeXt To SpOnGeBoB cAsE!</h1>
+        <img src='./spongebob.png' />
+        <h1 class='header'>cOnVeRt YoUr TeXt To SpOnGeBoB cAsE!</h1>
         <div class='example'>
-            <h4>Hello World!</h4>
+            <h4 class='example-text'>Hello World!</h4>
             <div class='arrows'>
-                <i class='fas fa-angle-right first-arrow fade-in-1'></i>
-                <i class='fas fa-angle-right fade-in-2'></i>
-                <i class='fas fa-angle-right last-arrow fade-in-3'></i>
+                <i class='fas fa-angle-right first-arrow fade-in-1 arrows'></i>
+                <i class='fas fa-angle-right fade-in-2 arrows'></i>
+                <i class='fas fa-angle-right last-arrow fade-in-3 arrows'></i>
             </div>
-            <h4>hElLo WoRlD!</h4>
+            <h4 class='example-converted-text'>hElLo WoRlD!</h4>
         </div>
         <input placeholder='&nbsp;eNtEr TeXt HeRe' />
     </div>
 </body>
+
+<script src="scripts.js"></script>
 
 </html>
