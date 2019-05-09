@@ -1,0 +1,64 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.sponge-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: #fdf785;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.example {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+
+.first-arrow {
+  margin-left: 10px;
+}
+
+.last-arrow {
+  margin-right: 10px;
+}
+
+.fade-in-1 {
+  -webkit-animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) infinite both;
+  animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) infinite both;
+}
+
+.fade-in-2 {
+  -webkit-animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 0.25s infinite both;
+  animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 0.25s infinite both;
+}
+
+.fade-in-3 {
+  -webkit-animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s infinite both;
+  animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s infinite both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
