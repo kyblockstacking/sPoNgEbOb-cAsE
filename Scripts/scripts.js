@@ -1,7 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    kevin = () => {
-        console.log(document.getElementsByClassName('user-input')[0].value)
+    convertToSpongeBobCase = () => {
+        let user_input = document.getElementsByClassName('user-input')[0].value.toLowerCase();
+
+        console.log(user_input);
     }
 
 });

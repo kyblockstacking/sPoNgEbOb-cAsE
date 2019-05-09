@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: "Slackey", cursive;
 }
 
 .example {
@@ -24,10 +25,15 @@ body {
   overflow: hidden;
 }
 
+.example:hover {
+  cursor: default;
+}
+
 .header {
   text-align: center;
   color: #ac5629;
   color: #5d713f;
+  cursor: default;
 }
 
 .example-text,
@@ -82,13 +88,21 @@ body {
 .user-input {
   border-radius: 20px;
   padding: 5px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   border: none;
   outline: none;
+  color: #0059a4;
+  text-align: center;
 }
 
 .user-input::placeholder {
   color: #5d713f;
+  font-weight: bold;
+}
+
+.user-input:focus {
+  width: 500px;
+  max-width: 80vw;
 }
 
 .border-wrap {
@@ -111,4 +125,9 @@ body {
   border-radius: 20px;
   box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.5);
   outline: none;
+  font-family: "Slackey", cursive;
+}
+
+.convert-button:hover {
+  cursor: pointer;
 }
