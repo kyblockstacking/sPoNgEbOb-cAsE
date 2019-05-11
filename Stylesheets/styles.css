@@ -104,14 +104,13 @@ body {
 
 .user-input::placeholder {
   color: #5d713f;
-  /* font-weight: bold; */
   font-family: "Space Mono", monospace;
   font-style: italic;
 }
 
 .clear-input {
   background: #a484b8;
-  color: #ef9fa0;
+  color: #fff;
   outline: none;
   border: none;
   text-align: center;
@@ -135,13 +134,13 @@ body {
 
 .convert-button {
   margin-top: 20px;
-  padding: 8px;
-  width: 150px;
+  padding: 12px;
+  width: 200px;
   border: none;
   background-color: #f76310;
   color: #fff;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.2em;
   border-radius: 20px;
   box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.5);
   outline: none;
