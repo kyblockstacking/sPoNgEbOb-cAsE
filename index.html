@@ -32,7 +32,8 @@
             <h4 class='example-converted-text'>hElLo WoRlD!</h4>
         </div>
         <div class='border-wrap'>
-            <input class='user-input' type='text' placeholder='&nbsp;enter text here' />
+            <input class='user-input' type='text' placeholder='&nbsp;enter text here' onfocus='this.placeholder = ""'
+                onblur='this.placeholder = "&nbsp;enter text here"' />
         </div>
         <button class='clear-input' onclick='clear_user_input()'>clear input</button>
         <button class='convert-button' onclick='convertToSpongeBobCase()'>CONVERT</button>
