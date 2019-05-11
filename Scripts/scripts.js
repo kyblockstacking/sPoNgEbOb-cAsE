@@ -4,16 +4,22 @@ document.addEventListener('DOMContentLoaded', function () {
         let user_input = document.getElementsByClassName('user-input')[0].value.toLowerCase();
         let results = '';
 
-        for (let i = 1; i < user_input.length; i += 2) {
-            // skip space characters for spongebob case
+        for (let i = 0; i < user_input.length; i += 1) {
+            // skip adding lowercase/uppercase to space characters
             if (user_input[i] === ' ') {
+                results += ' ';
                 continue;
             }
-            // console.log(user_input[i - 1].toLowerCase())
-            // console.log(user_input[i].toUpperCase())
+            // apply lowercase to odd indexes
+            if ((i + 1) % 2 === 0) {
+                results += user_input[i].toUpperCase();
+            }
+            // apply uppercase to even indexes
+            if (i % 2 === 0) {
+                results += user_input[i].toLowerCase();
+            }
 
-            results += user_input[i - 1].toLowerCase();
-            results += user_input[i].toUpperCase();
+
         }
 
         console.log(results);
