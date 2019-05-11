@@ -1,5 +1,24 @@
 document.addEventListener('DOMContentLoaded', function () {
 
+    (console_greetings = () => {
+        console.log("sPoNgEbOb CaSe GeNeRaToR mAdE bY %c Kevin Yang ", 'background: #000; color: #fff; font-size: 1.5em;');
+    })();
+
+    (ascii_spongebob = () => {
+        console.log("          *                    ")
+        console.log("           *                   ")
+        console.log("      ----//-------            ")
+        console.log("      \\..C/--..--/ \\   `A      ")
+        console.log("       (@ )  ( @) \\  \\// |w    ")
+        console.log("        \\          \\  \\---/    ")
+        console.log("         HGGGGGGG    \\    /`   ")
+        console.log("         V `---------`--'      ")
+        console.log("             <<    <<          ")
+        console.log("            ###   ###          ")
+    })();
+
+    // ascii_spongebob();
+
     convertToSpongeBobCase = () => {
         let user_input = document.getElementsByClassName('user-input')[0].value.toLowerCase();
         let results = '';
@@ -8,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
             // skip adding lowercase/uppercase to space characters
             if (user_input[i] === ' ') {
                 results += ' ';
-                continue;
             }
             // apply lowercase to odd indexes
             if ((i + 1) % 2 === 0) {
@@ -18,11 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
             if (i % 2 === 0) {
                 results += user_input[i].toLowerCase();
             }
-
-
         }
 
         console.log(results);
+
     }
 
 });
