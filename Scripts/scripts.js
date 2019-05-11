@@ -2,22 +2,27 @@ document.addEventListener('DOMContentLoaded', function () {
 
     (console_greetings = () => {
         console.log("sPoNgEbOb CaSe GeNeRaToR mAdE bY %c Kevin Yang ", 'background: #000; color: #fff; font-size: 1.5em;');
+        console.log("Enjoy and have fun! :)")
     })();
 
     (ascii_spongebob = () => {
-        console.log("          *                    ")
-        console.log("           *                   ")
-        console.log("      ----//-------            ")
-        console.log("      \\..C/--..--/ \\   `A      ")
-        console.log("       (@ )  ( @) \\  \\// |w    ")
-        console.log("        \\          \\  \\---/    ")
-        console.log("         HGGGGGGG    \\    /`   ")
-        console.log("         V `---------`--'      ")
-        console.log("             <<    <<          ")
-        console.log("            ###   ###          ")
+        console.log("");
+        console.log("          *                    ");
+        console.log("           *                   ");
+        console.log("      ----//-------            ");
+        console.log("      \\..C/--..--/ \\   `A      ");
+        console.log("       (@ )  ( @) \\  \\// |w    ");
+        console.log("        \\          \\  \\---/    ");
+        console.log("         HGGGGGGG    \\    /`   ");
+        console.log("         V `---------`--'      ");
+        console.log("             <<    <<          ");
+        console.log("            ###   ###          ");
+        console.log("");
     })();
 
-    // ascii_spongebob();
+    (find_repo_here = () => {
+        console.log("You can find the repo here: https://github.com/kyblockstacking/sPoNgEbOb_CaSe");
+    })();
 
     convertToSpongeBobCase = () => {
         let user_input = document.getElementsByClassName('user-input')[0].value.toLowerCase();
