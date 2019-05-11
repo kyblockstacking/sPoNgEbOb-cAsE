@@ -34,6 +34,7 @@ body {
   color: #5d713f;
   cursor: default;
   font-family: "Slackey", cursive;
+  max-width: 95vw;
 }
 
 .example-text,
