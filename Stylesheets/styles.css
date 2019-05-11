@@ -96,6 +96,8 @@ body {
   color: #0059a4;
   text-align: center;
   font-family: "Space Mono", monospace;
+  width: 350px;
+  max-width: 80vw;
 }
 
 .user-input::placeholder {
@@ -104,10 +106,10 @@ body {
   font-family: "Space Mono", monospace;
 }
 
-.user-input:focus {
+/* .user-input:focus {
   width: 500px;
   max-width: 80vw;
-}
+} */
 
 .border-wrap {
   position: relative;
