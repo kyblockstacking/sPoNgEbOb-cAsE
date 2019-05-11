@@ -25,26 +25,26 @@ document.addEventListener('DOMContentLoaded', function () {
     })();
 
     convertToSpongeBobCase = () => {
-        let user_input = document.getElementsByClassName('user-input')[0].value.toLowerCase();
-        let results = '';
+        const user_input = document.getElementsByClassName('user-input')[0].value.toLowerCase();
+        const display_result = document.getElementsByClassName('display-result')[0];
+        let result = '';
 
         for (let i = 0; i < user_input.length; i += 1) {
             // skip adding lowercase/uppercase to space characters
             if (user_input[i] === ' ') {
-                results += ' ';
+                result += ' ';
             }
             // apply lowercase to odd indexes
             if ((i + 1) % 2 === 0) {
-                results += user_input[i].toUpperCase();
+                result += user_input[i].toUpperCase();
             }
             // apply uppercase to even indexes
             if (i % 2 === 0) {
-                results += user_input[i].toLowerCase();
+                result += user_input[i].toLowerCase();
             }
         }
-
-        console.log(results);
-
+        // put result into empty div to display to user
+        display_result.innerHTML = result;
     }
 
 });
