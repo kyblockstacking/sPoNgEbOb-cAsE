@@ -24,6 +24,11 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log("You can find the repo here: https://github.com/kyblockstacking/sPoNgEbOb_CaSe");
     })();
 
+    // clears all characters from input box
+    clear_user_input = () => {
+        document.getElementsByClassName('user-input')[0].value = '';
+    }
+
     convertToSpongeBobCase = () => {
         const user_input = document.getElementsByClassName('user-input')[0].value.toLowerCase();
         const display_result = document.getElementsByClassName('display-result')[0];

@@ -89,7 +89,7 @@ body {
 
 .user-input {
   border-radius: 20px;
-  padding: 5px;
+  padding: 8px;
   font-size: 1.1em;
   border: none;
   outline: none;
@@ -106,10 +106,21 @@ body {
   font-family: "Space Mono", monospace;
 }
 
-/* .user-input:focus {
-  width: 500px;
+.clear-input {
+  background: #a484b8;
+  color: #ef9fa0;
+  outline: none;
+  border: none;
+  text-align: center;
+  width: 330px;
   max-width: 80vw;
-} */
+  border-radius: 0 0 20px 20px;
+  padding: 4px;
+}
+
+.clear-input:hover {
+  cursor: pointer;
+}
 
 .border-wrap {
   position: relative;
