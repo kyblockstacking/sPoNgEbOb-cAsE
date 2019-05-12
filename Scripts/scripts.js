@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     (console_greetings = () => {
-        console.log("sPoNgEbOb CaSe GeNeRaToR mAdE bY %c Kevin Yang ", 'background: #000; color: #fff; font-size: 1.5em;');
-        console.log("Enjoy and have fun! :)")
+        console.log("sPoNgEbOb cAse mAdE bY %c Kevin Yang ", 'background: #000; color: #fff; font-size: 1.5em;');
+        console.log("eNjOy aNd hAvE fUn! :)")
     })();
 
     (ascii_spongebob = () => {
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })();
 
     (find_repo_here = () => {
-        console.log("You can find the repo here: https://github.com/kyblockstacking/sPoNgEbOb_CaSe");
+        console.log("yOu cAn fInD tHe rEpO hErE: https://github.com/kyblockstacking/sPoNgEbOb_CaSe");
     })();
 
     // clears all characters from input box
