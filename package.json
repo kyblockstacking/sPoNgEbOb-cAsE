@@ -1,0 +1,20 @@
+{
+  "name": "sPoNgEbOb_CaSe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyblockstacking/sPoNgEbOb_CaSe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyblockstacking/sPoNgEbOb_CaSe/issues"
+  },
+  "homepage": "https://github.com/kyblockstacking/sPoNgEbOb_CaSe#readme"
+}
