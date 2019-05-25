@@ -158,3 +158,10 @@ html, body {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 20px;
 }
+
+.close-result-button {
+  color: red;
+  float: right;
+  margin: 20px;
+  font-size: 1.5em;
+}
