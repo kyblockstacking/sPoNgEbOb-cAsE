@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   border: 0;
@@ -39,8 +38,7 @@ body {
   max-width: 95vw;
 }
 
-.example-text,
-.example-converted-text {
+.example-text, .example-converted-text {
   color: #ac5629;
   font-family: "Space Mono", monospace;
 }
@@ -80,6 +78,7 @@ body {
     opacity: 1;
   }
 }
+
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -149,4 +148,13 @@ body {
 
 .convert-button:hover {
   cursor: pointer;
+}
+
+.result-box {
+  position: fixed;
+  width: 400px;
+  max-width: 90vw;
+  height: 525px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
 }

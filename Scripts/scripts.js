@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     convertToSpongeBobCase = () => {
         const user_input = document.getElementsByClassName('user-input')[0].value.toLowerCase();
-        const display_result = document.getElementsByClassName('display-result')[0];
+        const display_result = document.getElementsByClassName('result')[0];
         let result = '';
 
         for (let i = 0; i < user_input.length; i += 1) {
