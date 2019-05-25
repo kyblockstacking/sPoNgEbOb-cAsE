@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
     convertToSpongeBobCase = () => {
         const user_input = document.getElementsByClassName('user-input')[0].value.toLowerCase();
         const display_result = document.getElementsByClassName('result')[0];
+
         let result = '';
 
         for (let i = 0; i < user_input.length; i += 1) {
@@ -49,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
         // put result into empty div to display to user
-        display_result.innerHTML = result;
+        display_result.value = result;
     }
 
     show_result_box = () => {
@@ -72,6 +73,14 @@ document.addEventListener('DOMContentLoaded', function () {
         // close the overlay
         overlay.classList.add('close');
         overlay.classList.remove('show');
+    }
+
+    copy_result = () => {
+        const result = document.getElementsByClassName('result')[0];
+        // select the result
+        result.select();
+        // copy the result
+        document.execCommand("copy");
     }
 
 });

@@ -37,14 +37,14 @@
         </div>
         <button class='clear-input' onclick='clear_user_input()'>clear input</button>
         <button class='convert-button' onclick='convertToSpongeBobCase(); show_result_box()'>CONVERT</button>
-
         <!-- pop up box to display results -->
         <div class='result-box close'>
             <i class='far fa-times-circle close-result-button' onclick='close_result_box()'></i>
             <h4 class='your-result-text'>Your Results:</h4>
-            <div class='result'></div>
+            <input class='result'></input>
+            <button onclick='copy_result()'>COPY</button>
         </div>
-
+        <!-- dark overlay to focus on result box -->
         <div class='overlay close'></div>
 
     </div>
