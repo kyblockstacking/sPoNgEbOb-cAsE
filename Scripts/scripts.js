@@ -54,16 +54,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
     show_result_box = () => {
         const result_box = document.getElementsByClassName('result-box')[0];
-
-        result_box.classList.add('show-result-box');
-        result_box.classList.remove('close-result-box');
+        const overlay = document.getElementsByClassName('overlay')[0];
+        // show the result box
+        result_box.classList.add('show');
+        result_box.classList.remove('close');
+        // show the overlay
+        overlay.classList.add('show');
+        overlay.classList.remove('close');
     }
 
     close_result_box = () => {
         const result_box = document.getElementsByClassName('result-box')[0];
-
-        result_box.classList.add('close-result-box');
-        result_box.classList.remove('show-result-box');
+        const overlay = document.getElementsByClassName('overlay')[0];
+        // close result box
+        result_box.classList.add('close');
+        result_box.classList.remove('show');
+        // close the overlay
+        overlay.classList.add('close');
+        overlay.classList.remove('show');
     }
 
 });

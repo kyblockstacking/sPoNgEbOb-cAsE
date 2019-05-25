@@ -39,12 +39,13 @@
         <button class='convert-button' onclick='convertToSpongeBobCase(); show_result_box()'>CONVERT</button>
 
         <!-- pop up box to display results -->
-        <div class='result-box'>
+        <div class='result-box close'>
             <i class='far fa-times-circle close-result-button' onclick='close_result_box()'></i>
-            <h4>Your Results:</h4>
+            <h4 class='your-result-text'>Your Results:</h4>
             <div class='result'></div>
         </div>
 
+        <div class='overlay close'></div>
 
     </div>
 </body>
