@@ -52,4 +52,18 @@ document.addEventListener('DOMContentLoaded', function () {
         display_result.innerHTML = result;
     }
 
+    show_result_box = () => {
+        const result_box = document.getElementsByClassName('result-box')[0];
+
+        result_box.classList.add('show-result-box');
+        result_box.classList.remove('close-result-box');
+    }
+
+    close_result_box = () => {
+        const result_box = document.getElementsByClassName('result-box')[0];
+
+        result_box.classList.add('close-result-box');
+        result_box.classList.remove('show-result-box');
+    }
+
 });

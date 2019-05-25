@@ -159,6 +159,14 @@ html, body {
   border-radius: 20px;
 }
 
+.show-result-box {
+  display: visible;
+}
+
+.close-result-box {
+  display: none;
+}
+
 .close-result-button {
   color: red;
   float: right;
