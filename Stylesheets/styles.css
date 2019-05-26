@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   border: 0;
@@ -38,7 +39,8 @@ html, body {
   max-width: 95vw;
 }
 
-.example-text, .example-converted-text {
+.example-text,
+.example-converted-text {
   color: #ac5629;
   font-family: "Space Mono", monospace;
 }
@@ -192,8 +194,17 @@ html, body {
 }
 
 .your-result-text {
-  margin-top: 10px;
   text-align: center;
+  margin: 0;
+  color: #5d713f;
+  font-family: "Slackey", cursive;
+}
+
+.by-kevin-yang-text {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Space Mono", monospace;
+  margin-top: 0;
 }
 
 .result {
@@ -202,7 +213,7 @@ html, body {
   background: red;
 }
 
-textarea[data-category='result'] {
+textarea[data-category="result"] {
   /* background-color: transparent; */
   background: red;
   height: 50%;
