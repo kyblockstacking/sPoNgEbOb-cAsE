@@ -82,5 +82,16 @@ document.addEventListener('DOMContentLoaded', function () {
         // copy the result
         document.execCommand("copy");
     }
+    // convert results when user presses the 'enter' key
+    window.addEventListener('keyup', event => {
+        if (event.keyCode === 13) {
+            // prevent refreshing page
+            event.preventDefault();
+            // convert user input
+            convertToSpongeBobCase();
+            // opens the result box
+            show_result_box();
+        }
+    })
 
 });
