@@ -41,11 +41,11 @@
         <div class='result-box close'>
             <i class='far fa-times-circle close-result-button' onclick='close_result_box()'></i>
             <h4 class='your-result-text'>Your Results:</h4>
-            <input class='result'></input>
+            <input class='result' data-category='result'></input>
             <button onclick='copy_result()'>COPY</button>
         </div>
         <!-- dark overlay to focus on result box -->
-        <div class='overlay close'></div>
+        <div class='overlay close' onclick='close_result_box()'></div>
 
     </div>
 </body>

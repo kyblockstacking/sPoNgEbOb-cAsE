@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // put result into empty div to display to user
         display_result.value = result;
     }
-
+    // opens the result box
     show_result_box = () => {
         const result_box = document.getElementsByClassName('result-box')[0];
         const overlay = document.getElementsByClassName('overlay')[0];
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
         overlay.classList.add('show');
         overlay.classList.remove('close');
     }
-
+    // closes the result box
     close_result_box = () => {
         const result_box = document.getElementsByClassName('result-box')[0];
         const overlay = document.getElementsByClassName('overlay')[0];
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
         overlay.classList.add('close');
         overlay.classList.remove('show');
     }
-
+    // copy the result onto clipboard
     copy_result = () => {
         const result = document.getElementsByClassName('result')[0];
         // select the result

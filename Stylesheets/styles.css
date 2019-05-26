@@ -163,9 +163,10 @@ html, body {
   width: 400px;
   max-width: 90vw;
   height: 525px;
-  background: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 20px;
   z-index: 2;
+  border: 3px solid #a988bd;
 }
 
 .show {
@@ -195,4 +196,12 @@ html, body {
 .result {
   margin: 0 30px;
   border: none;
+}
+
+input[data-category='result'] {
+  background-color: transparent;
+}
+
+.result:focus {
+  outline: none;
 }
