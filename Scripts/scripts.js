@@ -82,8 +82,9 @@ document.addEventListener('DOMContentLoaded', function () {
         // copy the result
         document.execCommand("copy");
     }
-    // convert results when user presses the 'enter' key
+    // eventlisteners for key presses
     window.addEventListener('keyup', event => {
+        // convert results when user presses the 'enter' key
         if (event.keyCode === 13) {
             // prevent refreshing page
             event.preventDefault();
@@ -91,6 +92,11 @@ document.addEventListener('DOMContentLoaded', function () {
             convertToSpongeBobCase();
             // opens the result box
             show_result_box();
+        }
+        // closes result box when user presses the 'esc' key
+        if (event.keyCode === 27) {
+            event.preventDefault();
+            close_result_box();
         }
     })
 
