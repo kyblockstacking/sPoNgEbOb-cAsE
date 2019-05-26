@@ -167,6 +167,8 @@ html, body {
   border-radius: 20px;
   z-index: 2;
   border: 3px solid #a988bd;
+  display: flex;
+  flex-direction: column;
 }
 
 .show {
@@ -179,7 +181,8 @@ html, body {
 
 .close-result-button {
   color: red;
-  float: right;
+  display: flex;
+  justify-content: flex-end;
   margin: 20px;
   font-size: 1.5em;
 }
@@ -189,17 +192,21 @@ html, body {
 }
 
 .your-result-text {
-  margin-top: 50px;
-  margin-left: 30px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .result {
-  margin: 0 30px;
+  margin: 0 auto;
   border: none;
+  background: red;
 }
 
-input[data-category='result'] {
-  background-color: transparent;
+textarea[data-category='result'] {
+  /* background-color: transparent; */
+  background: red;
+  height: 50%;
+  width: 90%;
 }
 
 .result:focus {
