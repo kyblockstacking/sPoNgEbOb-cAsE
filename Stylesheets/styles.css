@@ -228,3 +228,24 @@ textarea[data-category="result"] {
 .result:focus {
   outline: none;
 }
+
+.copy-result-button {
+  font-family: "Space Mono", monospace;
+  text-align: center;
+  padding: 5px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(#88bff8, #5eb0fb);
+  cursor: copy;
+}
+
+.copy-result-button:hover {
+  background: #3979c4;
+}
+
+.copy-result-button:focus {
+  outline: none;
+}
