@@ -210,14 +210,19 @@ body {
 .result {
   margin: 0 auto;
   border: none;
-  background: red;
 }
-
+/* this is where the results are displayed */
 textarea[data-category="result"] {
-  /* background-color: transparent; */
-  background: red;
+  background: linear-gradient(to bottom right, #f6a3a5, #a988bd);
   height: 50%;
   width: 90%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  resize: none;
+  color: #fff;
+  overflow-x: hidden;
+  padding: 15px;
+  font-family: "Space Mono", monospace;
 }
 
 .result:focus {
