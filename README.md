@@ -3,4 +3,4 @@
 transforms your text into spongebob case!
 
 
-to do: decide how to display results to users
+to do: fix close window button
