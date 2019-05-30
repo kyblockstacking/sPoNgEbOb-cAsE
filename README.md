@@ -3,4 +3,5 @@
 transforms your text into spongebob case!
 
 
-to do: fix close window button
+to do: 
+- fix close window button
