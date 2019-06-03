@@ -5,3 +5,4 @@ transforms your text into spongebob case!
 
 to do: 
 - fix close window button
+- authenticate inputs
