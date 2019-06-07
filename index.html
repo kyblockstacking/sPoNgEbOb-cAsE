@@ -39,7 +39,9 @@
         <button class='convert-button' onclick='convertToSpongeBobCase(); show_result_box()'>CONVERT</button>
         <!-- pop up box to display results -->
         <div class='result-box close'>
-            <i class='far fa-times-circle close-result-button' onclick='close_result_box()'></i>
+            <div class='close-button-container'>
+                <i class='far fa-times-circle close-result-button' onclick='close_result_box()'></i>
+            </div>
             <h2 class='your-result-text'>sPoNgEbOb cAse</h2>
             <h4 class='by-kevin-yang-text'>by Kevin Yang</h4>
             <textarea class='result' data-category='result' readonly='yes'></textarea>

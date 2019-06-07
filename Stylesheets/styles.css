@@ -186,7 +186,13 @@ body {
   display: flex;
   justify-content: flex-end;
   margin: 20px;
+  width: 0;
   font-size: 1.5em;
+}
+/* added this wrapper so button doesnt extend across container */
+.close-button-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .close-result-button:hover {
